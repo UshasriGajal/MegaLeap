@@ -10,6 +10,7 @@ const Display = () => {
 //   console.log(filteredData)
 const deleteCard=(id)=>{
     // console.log(input)
+    alert('The Card will be deleted')
     setFilteredData(filteredData.filter((task) => task.id !== id));
     console.log(filteredData)
 }
