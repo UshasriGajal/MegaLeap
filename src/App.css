@@ -1,0 +1,31 @@
+.personDetails{
+  
+  margin: 5%;
+  
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 10px;
+  padding-right: 20px;
+}
+.AllPeople{
+  text-align: center;
+  display: grid;
+  /* place-items: center; */
+  grid-template-columns: repeat(4,1fr);
+  margin: auto;
+}
+.mainDiv{
+  margin: auto;
+  text-align: center;
+}
+.DelButton{
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  margin-bottom: 10px;
+}
+.InputBar{
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
